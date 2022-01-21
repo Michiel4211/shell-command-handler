@@ -1,5 +1,5 @@
 # shell-command-handler
-Bash like shell command handler. Allows for e.g. pipes and subshells
+Bash like shell command handler
 
 Supported operations:
 - Simple command

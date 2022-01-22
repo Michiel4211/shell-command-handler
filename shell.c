@@ -58,10 +58,8 @@ void handle_cmnd(part_t *part)
         if (chdir(argv[1]) < 0)
         {
             perror("Changing the path failed!");
-            return;
         }
-        else
-            return;
+        return;
     }
 
     if (strcmp(program, "set") == 0)
